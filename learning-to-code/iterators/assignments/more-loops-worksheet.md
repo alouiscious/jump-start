@@ -20,6 +20,9 @@ cars = ["old", "new", "used"]
 cars.each do |car|
   puts car
 end
+old
+new
+used
 ```
 
 2.
@@ -28,6 +31,9 @@ fruits = ["banana", "apple", "kiwi"]
 fruits.each do |fruit|
   puts "I love " + fruit + "!"
 end
+I love banana!
+I love apple!
+I love kiwi!
 ```
 
 3.
@@ -36,6 +42,12 @@ values = [8, 5, 3, 10, 14, 2]
 values.each do |value|
   puts value
 end
+8
+5
+3
+10
+14
+2
 ```
 
 4.
@@ -48,6 +60,7 @@ values.each do |value|
 end
 
 puts total
+31
 ```
 
 5.
@@ -60,6 +73,12 @@ values.each do |value|
     puts "Regular values like #{value}"
   end
 end
+Regular values like 8
+Regular values like 5
+Regular values like 3
+Special case!
+Regular values like 14
+Regular values like 2
 ```
 
 

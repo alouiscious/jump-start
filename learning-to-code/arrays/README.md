@@ -292,22 +292,7 @@ Hello Han!
 
 ## Numbers problem assignment
 * Throughout this course we will be working with the **Numbers program**. Here's the fourth version of the program:
-  * Leveraging your learnings from the notes you read (use at least two different types of loops, and an array to hold information), write a program that does the following:
-    * Ask the user for the count of numbers.
-    * Create an array to hold the numbers that the user will input
-    * Do the following count number of times:
-      * Ask the user to input a positive integer value
-      * Save the user input as an integer value into the next location in the array.
-    * Go through each value in the array and compare each value to the last number entered by the user. Based on the comparison print the following:
-      * If the value in the array is less than the value of the last number entered, print to the terminal that the value at that index is less than the value at the last index.
-      * If the value in the array is greater than the value of the last number entered, print to the terminal that the value at that index is greater than the value at the last index.
-      * If the value in the array is equal to the value of the last number entered, print to the terminal that the value at that index is equal to the value at the last index.
-    * Print the following three to the terminal:
-      * The minimum value in the array. _Note_: The minimum value is the lowest value in the array.
-      * The maximum value in the array. _Note_: The maximum value is the highest value in the array.
-      * The average of all the elements in the array. _Note_: The average is calculated as the _(the sum of elements) / (the count of all elements)_.
-    * Example output:
-        * _Note_: User input is indicated in ~~ (tildes).
+  * Leveraging your learnings from the notes you read (
 
 ```
    Let's play a numbers game. How many numbers would you like to enter?

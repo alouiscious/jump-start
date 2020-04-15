@@ -97,7 +97,7 @@ test_score = gets.chomp.to_i
 if test_score > 90
   print "You got an A!"
 end
-```
+``` 
 
 ```ruby
 test_score = gets.chomp.to_i
@@ -136,7 +136,7 @@ end
 
 puts "Thanks for playing the favorite animal game!"
 ```
-
+<!--  -->
 ## Numbers problem assignment
 * Throughout this course we will be working with the **Numbers program**. Here's the second version of the program:
   * Leveraging your learnings from the notes you read, write a program that does the following:

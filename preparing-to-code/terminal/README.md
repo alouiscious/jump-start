@@ -65,14 +65,14 @@ Try out these commands first, and record what happened.
 
 | Command | What happened? |
 | :--- | :--- |
-| `ls -a .` | | 
-| `man ls` | |
-| `q` | |
-| `pwd` | |
-| `cd ~` | |
+| `ls -a .` | shows all files including hidden| 
+| `man ls` |displays manual for the use of the ls command |
+| `q` |quit the window i.e. the manual |
+| `pwd` |prints the working directory |
+| `cd ~` |change to the home/topmost dir |
 | `cd .` | |
-| `cd ..` | |
-| `cd -` | |
+| `cd ..` | goes back one level|
+| `cd -` | displays path|
 
 Then use `man` to explore these commands.
 

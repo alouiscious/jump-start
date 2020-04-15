@@ -18,19 +18,19 @@ Fill in the table below with the matching macOS shortcuts, if you don't know the
 
 | What the command does | Mac shortcut |
 | :--- | :--- |
-| Copy | |
-| Paste | |
-| Cut | |
-| Save | |
-| Select | |
-| Undo | |
-| Redo | |
-| Find | |
-| Switch app | |
-| Open spotlight search | |
-| Force quit | |
-| Full-screen screen shot | |
-| User-defined region screen shot | |
+| Copy |cmd-c |
+| Paste | cmd-v|
+| Cut |cmd-x |
+| Save |cmd-s |
+| Select | cmd-a|
+| Undo | cmd-z|
+| Redo | cmd-shft-z|
+| Find |cmd-f |
+| Switch app | cmd-tab|
+| Open spotlight search |cmd-space |
+| Force quit |opt-cmd-esq |
+| Full-screen screen shot | cmd-shft-3|
+| User-defined region screen shot |cmd-shft-5 |
 
 ## macOS overview
 
@@ -50,15 +50,15 @@ Fill in the table below with the matching macOS shortcuts, if you don't know the
 - window snapping [Cinch](http://www.irradiatedsoftware.com/cinch/), [Divvy](http://mizage.com/divvy/), [Slate](https://github.com/mattr-/slate), [Spectacle](https://www.spectacleapp.com/)
 
 ## Practice tasks
-1. Use Spotlight to open the finder
-    * What does tab do in finder?
-    * What does shift + tab do in finder?
+1. Use Spotlight to open the finder cmd-space finder
+    * What does tab do in finder? nav next item focus
+    * What does shift + tab do in finder? nav previous item focus
 1. Do the following commands using only the keyboard:
     1. Open your web browser
     1. Navigate to adadevelopersacademy.org
-    1. Keeping the Ada browser tab open, open a new tab
+    1. Keeping the Ada browser tab open, open a new tab cmd-t
     1. Navigate to google.com
-    1. Navigate back to the Ada tab
-    1. Refresh the web page
-    1. Quit out of the web browser (don't just close the tabs, close the whole application)
+    1. Navigate back to the Ada tab cntrl-shft-tab
+    1. Refresh the web page cmd-r
+    1. Quit out of the web browser (don't just close the tabs, close the whole application) cmd-q
 1. Use Spotlight to open Finder, web browser, system preferences and then switch between all three applications

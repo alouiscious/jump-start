@@ -72,7 +72,7 @@ At Ada Developers Academy, we will be using [Atom](https://atom.io/), a text edi
 
 #### Homebrew Package Manager
 
-[Homebrew Package Manager](http://brew.sh) makes it easy to install a variety of software packages, and is used by the following Ruby Version Manager (rvm).  
+[Homebrew Package Manager](http://b`rew.sh) makes it easy to install a variety of software packages, and is used by the following Ruby Version Manager (rvm).  
 
 Installing Homebrew involves copying and pasting `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 

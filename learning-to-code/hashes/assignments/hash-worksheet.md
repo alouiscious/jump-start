@@ -22,9 +22,11 @@ person = {
   "nickname" => "adie"
 }
 
-puts person.length
-puts person["last_name"]
+puts person.length 
+puts person["last_name"] 
 ```
+# 3
+# lovelace
 
 2.
 ```ruby
@@ -33,10 +35,13 @@ animals = {
   "cat" => "feline"
 }
 
-animals["cat"] = "feline"
-puts animals["dog"]
-puts animals["donkey"]
+animals["cat"] = "feline" 
+puts animals["dog"] 
+puts animals["donkey"] 
 ```
+# replaces key value with feline
+# canine
+# nil
 
 3.
 ```ruby
@@ -46,9 +51,11 @@ workout_summary = {
   "yoga" => false
 }
 
-workout_summary["lunges"] = 101
-puts workout_summary["lunges"]
+workout_summary["lunges"] = 101 
+puts workout_summary["lunges"] 
 ```
+# adds new value to lunges
+# 101
 
 4.
 ```ruby
@@ -56,10 +63,13 @@ menu = {}
 menu["ramen"] = "garlic tonkotsu"
 menu["burger"] = "bleu sun"
 menu["tea"] = "green"
-puts menu.length
-puts menu["burger"]
-puts menu["tater_tots"]
+puts menu.length 
+puts menu["burger"] 
+puts menu["tater_tots"] 
 ```
+# 3
+# bleu sun
+# nil
 
 Hash problems with hashes using symbol notation:
 
@@ -71,7 +81,7 @@ person = {
   nickname: "adie"
 }
 
-puts person.length
+puts person.length 
 puts person[:last_name]
 ```
 
@@ -84,9 +94,9 @@ human_being = {
   meaning: "wise man"
 }
 
-puts human_being.length
-puts "The only living species of genus #{human_being[:genus]} are #{human_being[:species]}."
-puts human_being[:meaning].length
+puts human_being.length 
+puts "The only living species of genus #{human_being[:genus]} are #{human_being[:species]}." 
+puts human_being[:meaning].length 
 ```
 
 7.
@@ -99,16 +109,20 @@ oatmeal_raisin = {
   allergens: "nuts"
 }
 
-puts oatmeal_raisin.length
+puts oatmeal_raisin.length 
 
 if oatmeal_raisin[:dairy_free]
   puts "Oatmeal raisin cookies are dairy free."
-end
+end 
 
 oatmeal_raisin[:allergens] += ", soy"
-puts oatmeal_raisin[:allergens]
+puts oatmeal_raisin[:allergens] 
 
 if !oatmeal_raisin[:gluten_free] || !oatmeal_raisin[:vegan]
   puts "The oatmeal raisin cookie is either not gluten free or not vegan."
-end
+end 
 ```
+# 5
+# Oatmeal raisin cookies are dairy free.
+# nuts, soy
+# The oatmeal raisin cookie is either not gluten free or not vegan.

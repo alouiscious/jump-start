@@ -99,27 +99,27 @@ i = 1.5
 
 | Operation | Result | Data type of result |
 | :---: | :---:| :---: |
-| `d + e` | | |
-| `f + h` | | |
-| `g + h` | | |
-| `d - f` | | |
-| `g - e` | | |
-| `(h + i) - f` | | |
-| `(d - f) + e` | | |
-| `d * f` | | | |
-| `g * i` | | | |
-| `f * g` | | | |
-| `d / f` | | | |
-| `d / e` | | | |
-| `e / f` | | | |
-| `(g * f) / f` | | | |
-| `(d / f) * e` | | | |
-| `21 / 5` | | | |
-| 14 / 5 | | | |
-| 10 % 3 | | | |
-| 20 % 2 | | | |
-| 4 % 5 | | | |
-| 8 % 1 | | | |
+| `d + e` |15.0 | float|
+| `f + h` |5 | int|
+| `g + h` | 14.0| float|
+| `d - f` |8 |int |
+| `g - e` | 6.0| float|
+| `(h + i) - f` | 2.5|float |
+| `(d - f) + e` | 13.0| float|
+| `d * f` |20 | int fix| |
+| `g * i` |16.5 | float| |
+| `f * g` |22.0 | float| |
+| `d / f` | 5| | int|
+| `d / e` | 2.0| |float |
+| `e / f` |2.5 | | float|
+| `(g * f) / f` | 11.0| | float|
+| `(d / f) * e` |25.0 | |float |
+| `21 / 5` |4 | | intfixed|
+| 14 / 5 |2 | |int |
+| 10 % 3 | 1| |int |
+| 20 % 2 |0 | | int|
+| 4 % 5 | 4| | int|
+| 8 % 1 |0 | | int|
 
 ## String practice
 Determine the output for each of the following problems on your own and then check your answer using `irb`
@@ -177,3 +177,69 @@ my_string = "I love Ruby"
 my_string = "I love Ruby"
 my_string.slice(2, 4) << my_string.slice(7...11).concat(my_string.slice(2...6))
 ```
+Practice Problem Answers
+
+ my_string="I love Seatle"
+=> "I love Seatle"
+irb(main):002:0> my_string.slice(7)
+=> "S"
+irb(main):003:0> my_string="I love Seattle"
+=> "I love Seattle"
+irb(main):004:0> my_string.slice(7)
+=> "S"
+irb(main):005:0> my_string.slice(2,4)
+=> "love"
+irb(main):006:0> my_string.slice(2, 4)
+=> "love"
+irb(main):007:0> my_string.slice("Seattle")
+=> "Seattle"
+irb(main):008:0> my_string = "Ada"
+=> "Ada"
+irb(main):009:0> my_string +=" Lovelace"
+=> "Ada Lovelace"
+irb(main):010:0> my_string +=" Lovelace"
+=> "Ada Lovelace Lovelace"
+irb(main):011:0> my_string = "Ada"
+=> "Ada"
+irb(main):012:0> my_string << " codes" << " it!"
+=> "Ada codes it!"
+irb(main):013:0> my_string = "Ada"
+=> "Ada"
+irb(main):014:0> my_string.concat(" like to code.").slice(4...9)
+=> "like "
+irb(main):015:0> my_string.concat(" likes to code.").slice(4...9)
+=> "like "
+irb(main):016:0> my_string.concat(" likes to code.").slice(4...10)
+=> "like t"
+irb(main):017:0> my_string.concat(" likes to code.")
+=> "Ada like to code. likes to code. likes to code. likes to code."
+irb(main):018:0> my_string = "Hello, World!" 
+=> "Hello, World!"
+irb(main):019:0> "Goodbye " + my_string.slice(6, 5) << "!"
+=> "Goodbye  Worl!"
+irb(main):020:0> my_string = "Hello world!"         
+=> "Hello world!"
+irb(main):021:0> "Goodbye " + my_string.slice(6, 5) << "!"
+=> "Goodbye world!"
+irb(main):022:0> my_string = "Hello world!"
+=> "Hello world!"
+irb(main):023:0> my_string.slice(0...5).concat(",goodbye!")
+=> "Hello,goodbye!"
+irb(main):024:0> my_string.slice(0...5).concat(", goodbye!")
+=> "Hello, goodbye!"
+irb(main):025:0> my_string = "Hello world!"
+=> "Hello world!"
+irb(main):026:0> my_string.slice(0) << "i" + "!"
+=> "Hi!"
+irb(main):027:0> my_string = "I love Ruby"
+=> "I love Ruby"
+irb(main):028:0> my_string.slice(7, 4).concat (my_string.slice(2...6)) + my_string.slice(0)
+=> "RubyloveI"
+irb(main):029:0> my_string = "I love Ruby"
+=> "I love Ruby"
+irb(main):030:0> "R".concat(my_string.slice(8, 3) + "rocks!")
+=> "Rubyrocks!"
+irb(main):031:0> my_string = "I love Ruby"           => "I love Ruby"
+irb(main):032:0> "R".concat(my_string.slice(8, 3) + " rocks!")
+=> "Ruby rocks!"
+irb(main):033:0> my_string = "I love Ruby"           => "I love Ruby"

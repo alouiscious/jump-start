@@ -17,6 +17,8 @@ print(x+y) #=> 11
 2.times do
   puts "dance"
 end
+dance
+dance
 ```
 
 2.
@@ -24,6 +26,17 @@ end
 10.times do |i|
   puts i
 end
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+ => 10
 ```
 
 3.
@@ -32,6 +45,10 @@ end
   puts "coding!"
 end
 puts "fun!"
+coding!
+coding!
+coding!
+fun!
 ```
 
 4.
@@ -39,6 +56,12 @@ puts "fun!"
 5.times do |x|
   puts "#{x} chicken(s)"
 end
+0 chicken(s)
+1 chicken(s)
+2 chicken(s)
+3 chicken(s)
+4 chicken(s)
+
 ```
 
 5.
@@ -46,7 +69,16 @@ end
 10.times do |i|
   puts i * i
 end
-
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
 ```
 
 6.
@@ -54,6 +86,11 @@ end
 (1..5).each do
   puts "hello!"
 end
+hello!
+hello!
+hello!
+hello!
+hello!
 ```
 
 7.
@@ -61,6 +98,9 @@ end
 (1..3).each do |i|
   puts "#{i} animals(s)"
 end
+1 animals(s)
+2 animals(s)
+3 animals(s)
 ```
 
 8.
@@ -68,6 +108,9 @@ end
 (1..3).each do |i|
   puts i * i
 end
+1
+4
+9
 ```
 
 9.
@@ -79,6 +122,7 @@ total = 0
 end
 
 puts total
+6
 ```
 
 10.
@@ -88,6 +132,7 @@ puts total
     puts "You got a winner!"
   end
 end
+You got a winner!
 ```
 
 11.
@@ -98,6 +143,9 @@ while i < 3
   puts "hi"
   i = i + 1
 end
+hi
+hi
+hi
 ```
 
 12.
@@ -110,6 +158,10 @@ while i < 3
 end
 
 puts "bye"
+hi
+hi
+hi
+bye
 ```
 
 13.
@@ -120,6 +172,9 @@ while i < 3
   i += 1
   puts i
 end
+1
+2
+3
 ```
 
 14.
@@ -133,6 +188,7 @@ while i < 3
 end
 
 puts x
+8
 ```
 
 15.
@@ -143,6 +199,9 @@ while i > 0
   puts "ada!"
   i = i - 1
 end
+ada!
+ada!
+ada!
 ```
 
 16.
@@ -152,6 +211,8 @@ i = 1
 while i
   puts "a while"
 end
+this outputs a while for a long while
+
 ```
 
 17.
@@ -162,6 +223,7 @@ while i < 100
   puts "o hai"
   i = i * 100
 end
+o hai
 ```
 
 **When you are complete with all of these problems, you can check your answers against the [answer key](../assignments/loops-worksheet-answers.md).**
